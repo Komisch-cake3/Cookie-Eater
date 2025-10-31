@@ -20,3 +20,10 @@ header{
     top:50px;
     color:aliceblue;
 }
+
+.cookie{
+    position: absolute;
+    left: 500px;
+    top:250px;
+    
+}
