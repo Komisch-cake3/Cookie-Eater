@@ -32,3 +32,22 @@ header{
 .cookie:hover{
     transform: scale(1.05);
 }
+
+.hold{
+    height: 150px;
+    width: 500px;
+    background-color:rgb(150, 201, 246);
+    position: absolute;
+    border-radius: 20px;
+    top: 700px;
+    right: 500px;
+}
+
+.count{
+    font-family: "DISENZ", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 60px;
+}
