@@ -4,3 +4,19 @@ body{
     background-color:rgb(186, 223, 255);
 }
 
+@font-face {
+    font-family: "DISENZ";
+    src: url("./Fonts/DISENZ.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    font-family: "DISENZ", sans-serif;
+    font-size:100px;
+    text-align: center;
+    position: absolute;
+    left: 400px;
+    top:50px;
+    color:aliceblue;
+}
