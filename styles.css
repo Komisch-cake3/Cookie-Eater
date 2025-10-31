@@ -25,5 +25,10 @@ header{
     position: absolute;
     left: 500px;
     top:250px;
-    
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.cookie:hover{
+    transform: scale(1.05);
 }
