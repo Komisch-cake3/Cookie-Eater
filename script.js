@@ -1,4 +1,6 @@
 const cookie = document.getElementById("cookie");
+const nom = document.getElementById("nom");
+const count = document.getElementById ("counter");
 
 const cookieImages = [
     "Images/main.png",
@@ -11,8 +13,11 @@ const cookieImages = [
 ];
 
 let currentIndex = 0;
+let cookiesEaten = 0 ;
 cookie.addEventListener("click", () => {
     console.log("cookie clicks!");
+    nom.currentTime = 0;
+    nom.play();
     currentIndex++;
     if (currentIndex >= cookieImages.length) {
         currentIndex = 0;
@@ -21,5 +26,8 @@ cookie.addEventListener("click", () => {
        
     console.log("switching to:", cookieImages[currentIndex]);
      cookie.src = cookieImages[currentIndex];
+
+     cookiesEaten++;
+     count.textContent = "Bites taken: " + cookiesEaten;
 
 });
